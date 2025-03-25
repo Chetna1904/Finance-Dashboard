@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: darkgreen;
+}
+
+input, select {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+.logout {
+    background: red;
+}
+
+.logout:hover {
+    background: darkred;
+}
